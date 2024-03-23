@@ -2,9 +2,9 @@
 File for automatically generating folder and files required.
 """
 
-import os
-from pathlib import Path 
 import logging
+import os
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format="[%(asctime)s]: %(message)s:")
 
